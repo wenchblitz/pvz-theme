@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>PVZ Theme</title>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="scripts/jquery.inputhints.js"></script>
+<script type="text/javascript" src="scripts/jquery.inputhints.min.js"></script>
+<script type="text/javascript">
+	//Textbox Description
+	$(document).ready(function(){
+		$('input[title]').inputHints();
+		$('textarea[title]').inputHints();
+	});
+</script>
+
+<link rel="stylesheet" href="reset.css" type="text/css">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+<div id="outer-wrapper">
+    <div id="inner-wrapper">
+    	<header>
+        	<div class="header-logo"><h1><a href="#">Blog Name</a></h1><h2>"Just another wordpress site"</h2></div><!--.header-logo-->
+            
+            <div class="pvz-logo"><h1>PVZ Logo</h1></div><!--.pvz-logo-->
+            
+            <div class="pvz-searhform">
+                <form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
+                    <div>
+                    	<label class="screen-reader-text" for="s">Search for:</label>
+                        <input type="text" value="" name="s" id="s" title="Search here..." />
+                        <input type="submit" id="searchsubmit" value="Search" />
+                    </div>
+                </form>
+                <span><div class="snail">Snail</div></span>
+            </div>
+        </header>
+        
+        	<div class="clear"></div>
+        
+        <nav>
+        	<div class="menu">
+            	<ul>
+                	<li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">contact</a></li>                                                                                            
+                </ul>
+            </div><!--.menu-->
+        </nav>
+        	
+            <div class="clear"></div>
+            
+		<div id="container">
+        	<div class="border-top">&nbsp;</div>
+            <div id="content-wrapper">
+                <div id="main">
+              		asas
+                </div><!--#main-->
+                
+                <aside>
+              		<div class="aside-border-top">&nbsp;</div>
+                    <div id="aside-content">
+                        <div class="sidebar-contents">
+                        	
+                            <ul id="sidebar-menu">
+                            	<li id="category">
+                                	<div>
+                                    	<h2>Category</h2>
+                                    </div>
+                                </li>
+                                
+                            	<li id="archives">
+                                	<div>
+                                    	<h2>Archives</h2>
+                                    </div>                                
+                                </li>
+                                
+                            	<li id="recent-post">
+                                	<div>
+                                    	<h2>Recent Post</h2>
+                                    </div>                                
+                                </li>
+                                
+                            	<li id="recent-comments">
+                                	<div>
+                                    	<h2>Recent Comments</h2>
+                                    </div>                                
+                                </li>
+                            	<li id="aside-meta">
+                                	<div>
+                                    	<h2>Meta</h2>
+                                    </div>                                
+                                </li>                                                                                                                             
+                            </ul>                            
+                            
+                        </div><!--.sidebar-contentst-->
+                    </div><!--#aside-content-->
+                    <div class="aside-border-bottom">&nbsp;</div>
+                </aside>
+			</div><!--#content-wrapper-->                
+            <div class="border-bottom">&nbsp;</div>
+        </div><!--#conatiner-->            
+        
+        	<div class="clear"></div>
+            
+		<footer>
+        	<div id="inner-footer">
+            	<p class="left allrights">All rights Reserved &reg; 2012</p>
+                <p class="right poweredby">Powered by: <a href="http://wordpress.org/" title="Wordpress" alt="">Wordpress</a></p>      
+                
+                <div id="design-by">
+                    <p class="right the-author">Layout &amp; Design by: <a href="http://wenchblitz.x10.mx/" title="wenchblitz" alt="wenchblitz">wenchblitz</a></p>
+                </div><!--#design-by-->
+            </div><!--#inner-footer-->             
+        </footer>    
+                   
+    </div><!--#inner-wrapper-->
+</div><!--#outer-wrapper-->
+
+</body>
+</html>
